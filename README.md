@@ -3,8 +3,10 @@
 This is an ML Model that categorises various forms of sexual harassment shared on online forums, facilitating a faster response and action by authorities and concerned organisations. SafeCity dataset containing narratives of sexual harassment incidents shared on online forums. The model is be capable of handling all types of textual reports (eg. incidents shared on Twitter, Instagram etc) Also included a visualisation module for visualising the key factors leading to particular forms of harassment based on the XAI results. Also Included NLP to pre process the text (Narratives) for this project. Sexual harassment incidents are frequently reported on online platforms, but analyzing and categorizing them effectively is a challenge. This project leverages Natural Language Processing (NLP) and Explainable AI (XAI) to classify harassment cases, enabling organizations and authorities to take prompt action.
 
 Features 
--> Multi-class Classification – Categorizes different types of harassment (e.g., commenting, staring, touching/groping).
--> NLP Pipeline – Preprocessing techniques including tokenization, stopword removal, and lemmatization.
+-> 
+Multi-class Classification – Categorizes different types of harassment (e.g., commenting, staring, touching/groping).
+->
+ NLP Pipeline – Preprocessing techniques including tokenization, stopword removal, and lemmatization.
 -> Machine Learning Models – Uses Logistic Regression, Decision Trees, K-Nearest Neighbors, and SVM.
 -> Explainability with SHAP – Highlights key factors influencing classification.
 -> Real-World Data – Trained on the SafeCity dataset (crowdsourced reports of sexual harassment).
